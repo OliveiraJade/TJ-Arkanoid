@@ -430,6 +430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 937092943}
   - component: {fileID: 937092944}
+  - component: {fileID: 937092945}
   m_Layer: 0
   m_Name: "Ch\xE3o"
   m_TagString: Untagged
@@ -479,6 +480,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 18.997618, y: 1.476779}
   m_EdgeRadius: 0
+--- !u!114 &937092945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937092942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fb5fee75679423418f4d99251b624d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &983226680
 GameObject:
   m_ObjectHideFlags: 0
@@ -894,6 +907,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f20d335350152d34b834ebf9778e4130, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velocidade: 10
+  horizontalAxis: 0
 --- !u!1001 &1695997917
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -960,6 +975,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922570986556287485, guid: a4d77321f8a77e64fbe21168c04083fc,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.59007645
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922570986556287485, guid: a4d77321f8a77e64fbe21168c04083fc,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 6.9568987
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4d77321f8a77e64fbe21168c04083fc, type: 3}
@@ -1035,6 +1060,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922570986556287485, guid: a4d77321f8a77e64fbe21168c04083fc,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.570279
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922570986556287485, guid: a4d77321f8a77e64fbe21168c04083fc,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 6.9964933
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4d77321f8a77e64fbe21168c04083fc, type: 3}
